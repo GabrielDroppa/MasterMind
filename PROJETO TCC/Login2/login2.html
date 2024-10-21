@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="undraw_Taken_re_yn20-removebg.png">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Login</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="/Homepage/index.html">voltar</a></button>
+                    </div>
+                </div>
+
+                    <!--Fim do titulo-->
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="login">E-mail/CPF</label>
+                        <input id="login" type"text" name="login" placeholder="Digite o seu E-mail/CPF" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type"text" name="password" placeholder="Digite a sua senha" required>
+                    </div>
+                 </div>
+
+                    <div class="gender-title">
+                        <h6></h6>
+                    </div>
+
+                    <!--Fim das boxes-->
+
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Lembrar-se</label>
+                            <a href="#">Esquece a Senha?</a>
+                        </div>
+                        <br>
+                        <div class="register-link">
+                            <p>Você não tem uma conta?<a href="/css/login.html"> Registra-se</p>
+                        </div>                       
+                    <!--Fim dos marcadores e links-->
+
+                 <div class="continue-button">
+                    <button><a href="/admin-dashboard/index.html">Continuar</a></button>
+                 </div>
+                    <!--Fim do botão continue-->
+            </form>
+        </div>
+    </div>
+    <script>
+        function logar(){
+
+            var login = document.getElementById('login').value;
+            var password = document.getElementById('password').valeu;
+
+            if(login == "admin" && "admin"){
+                alert('Sucesso');
+            }
+        }
+    </script>
+</body>
+
+</html>
+
